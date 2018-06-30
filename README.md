@@ -4,8 +4,8 @@ Carry Cut-Back Adder (CCBA) Source Code
 
 This project provides the VHDL and scripting source for implementing and testing the
 Carry Cut-Back Adder (CCBA) circuit. If you use this code, please cite our article:
-[V. Camus et. al, “Timing optimization using artificial false paths and application with
-the carry cut-back adder,” in IEEE JETCAS, 2018.]
+[V. Camus et. al, “Design of Approximate Circuits by Fabrication of False Timing Paths:
+The Carry Cut-Back Adder,” in IEEE JETCAS, 2018.]
 
 This project contains:
 * the CCBA source in VHDL language to implement fully-custom or regular (i.e. with
@@ -86,8 +86,8 @@ only, ignored otherwise)
 * CUT_TYPE     (char)      guess/input-override type, between '0', '1', 'a' and 'b'
 
 For a full explanation of the CCBA working principle, check our associated article:
-[V. Camus et. al, “Timing optimization using artificial false paths and application with
-the carry cut-back adder,” in IEEE JETCAS, 2018.]
+[V. Camus et. al, “Design of Approximate Circuits by Fabrication of False Timing Paths:
+The Carry Cut-Back Adder,” in IEEE JETCAS, 2018.]
 
 
 Run a behavioral simulation using MentorGraphics Modelsim/Questa
