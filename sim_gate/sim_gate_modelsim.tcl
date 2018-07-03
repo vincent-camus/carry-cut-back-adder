@@ -22,7 +22,7 @@
 ################### PARAMETERS ###################
 
 # delay constraint (do not hesitate to modify to check the level of the first errors)
-set DELAY      0.45
+set DELAY      0.5
 
 # HDL paths
 set RTL_PATH   ../rtl
