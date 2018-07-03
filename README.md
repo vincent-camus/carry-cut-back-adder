@@ -19,7 +19,7 @@ adder to be simulated and synthesized
 its expected behavior
 * simulation scripts for MentorGraphics Modelsim/Questa
 * part of the Nangate 45nm cell library, a free predictive library developed by Nangate,
-provided with its own license in lib/NangateOpenCellLibrary_PDKv1_3_v2010_12.
+provided with its own license in lib/NangateOpenCellLibrary_PDKv1_3_v2010_12
 
 
 
@@ -29,15 +29,15 @@ File structure
 
 ```
 .
+├── bench
+|   ├── tb_adder32.vhd
+|   ├── tb_adder32_gate.vhd
+|   └── stimuli.txt
 ├── rtl
 |   ├── ccba_pkg.vhd
 |   ├── ccba.vhd
 |   ├── ccba_regular.vhd
 |   └── wrapper_ccba_regular_adder32.vhd
-├── bench
-|   ├── tb_adder32.vhd
-|   ├── tb_adder32_gate.vhd
-|   └── stimuli.txt
 ├── sim
 |   └── sim_modelsim.tcl
 ├── sim_gate
@@ -70,8 +70,8 @@ Customize the CCBA design architecture and parameters
 
 
 Optionally, you can customize the CCBA structure. The only file you need to modify is the
-rtl/wrapper_ccba_regular_adder32.vhd file in the CCBA parameter constant declarations,
-this will generate a regular CCBA structure, i.e. with uniformly-sized elements and
+rtl/wrapper_ccba_regular_adder32.vhd file, in the CCBA parameter constant declarations.
+This will generate a regular CCBA structure, i.e. with uniformly-sized elements and
 equally-spaced cuts.
 
 The CCBA parameters are:
@@ -125,7 +125,7 @@ STIM_NB  EXACT                   APPROX                  ERROR_PATTERN
 ```
 
 
-synthesize the design using Synopsys Design Compiler
+Synthesize the design using Synopsys Design Compiler
 ----------------------------------------------------
 
 
@@ -152,7 +152,7 @@ instead of `dc_shell`).
 
 
 4. Check in the generated reports.txt file for:
-* the applied delay constraints from the set_delay_constraints.tcl script
+* the applied delay constraints from the timing_constraints.tcl script
 * the timing report and slack
 * the area report
 * the power report
@@ -165,7 +165,7 @@ timing report and slack to see if the synthesized design fits the timing constra
 and adder32.sdf.
 
 
-synthesize the design using Cadence Genus
+Synthesize the design using Cadence Genus
 -----------------------------------------
 
 
@@ -192,7 +192,7 @@ commands to fit your EDA software infrastructure (e.g. running `genus_gui` inste
 
 
 4. Check in the generated reports.txt file for:
-* the applied delay constraints from the set_delay_constraints.tcl script
+* the applied delay constraints from the timing_constraints.tcl script
 * the timing report and slack
 * the area report
 * the power report
