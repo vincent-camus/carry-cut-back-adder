@@ -12,10 +12,10 @@ This project contains:
 * the CCBA source in VHDL language to implement fully-custom or regular (i.e. with
 uniformly-sized elements and equally-spaced cuts) CCBA structures
 * a VHDL top-level wrapper to set the desired architecture and structure of the CCBA
-adder to be simulated and synthetized
+adder to be simulated and synthesized
 * a behavioral testbench to characterize the errors for 32-bit CCBA structures
 * synthesis scripts for Synopsys Design Compiler and Cadence Genus
-* a gate-level timing verification testbench to compare the synthetized netlist against
+* a gate-level timing verification testbench to compare the synthesized netlist against
 its expected behavior
 * simulation scripts for MentorGraphics Modelsim/Questa
 * part of the Nangate 45nm cell library, a free predictive library developed by Nangate,
@@ -125,7 +125,7 @@ STIM_NB  EXACT                   APPROX                  ERROR_PATTERN
 ```
 
 
-Synthetize the design using Synopsys Design Compiler
+synthesize the design using Synopsys Design Compiler
 ----------------------------------------------------
 
 
@@ -158,14 +158,14 @@ instead of `dc_shell`).
 * the power report
 
 If you have modified the DELAY constraint or customized the CCBA architecture, check the
-timing report and slack to see if the synthetized design fits the timing constraint.
+timing report and slack to see if the synthesized design fits the timing constraint.
 
 
 5. The script exports the Verilog netlist and the SDF information in the files adder32.v
 and adder32.sdf.
 
 
-Synthetize the design using Cadence Genus
+synthesize the design using Cadence Genus
 -----------------------------------------
 
 
@@ -198,7 +198,7 @@ commands to fit your EDA software infrastructure (e.g. running `genus_gui` inste
 * the power report
 
 If you have modified the DELAY constraint or customized the CCBA architecture, check the
-timing report and slack to see if the synthetized design fits the timing contraint.
+timing report and slack to see if the synthesized design fits the timing contraint.
 
 
 5. The script exports the Verilog netlist and the SDF information in the files adder32.v

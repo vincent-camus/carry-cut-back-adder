@@ -6,7 +6,7 @@
 ##  License: BSD-3-Clause-Clear                                          ##
 ##                                                                       ##
 ##  File: syn_synopsys.tcl                                               ##
-##  Description: script to synthetize the CCBA wrapper with Synopsys     ##
+##  Description: script to synthesize the CCBA wrapper with Synopsys     ##
 ##  Design Compiler, generates:                                          ##
 ##  - reports.txt (constraints, timing, area and power reports)          ##
 ##  - adder32.v   (gate-level netlist of the synthesized CCBA)           ##

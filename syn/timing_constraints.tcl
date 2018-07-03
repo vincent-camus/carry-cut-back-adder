@@ -13,6 +13,9 @@
 ##  Notes: called in the synthesis script                                ##
 ###########################################################################
 
+
+###### PARAMETER EXTRACTION/CHECKING ######
+
 # getting guess/input-override type
 set CUT_TYPE [binary format H* $CUT_TYPE_HEX]
 
@@ -53,6 +56,8 @@ for {set CUT 1} {$CUT <= $CUT_NUMBER} {incr CUT} {
 
 # reporting
 append TIMING_CONSTRAINTS_REPORT "\nApplied delay ranges:\n"
+
+############ DELAY CONSTRAINTS ############
 
 # initialize arrays of port collections
 array unset I_PORTS

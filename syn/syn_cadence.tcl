@@ -6,7 +6,7 @@
 ##  License: BSD-3-Clause-Clear                                          ##
 ##                                                                       ##
 ##  File: syn_cadence.tcl                                                ##
-##  Description: script to synthetize the CCBA wrapper with Cadence      ##
+##  Description: script to synthesize the CCBA wrapper with Cadence      ##
 ##  Genus, generates:                                                    ##
 ##  - reports.txt (constraints, timing, area and power reports)          ##
 ##  - adder32.v   (gate-level netlist of the synthesized CCBA)           ##
