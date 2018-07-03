@@ -292,5 +292,5 @@ Acknowledgments
 ===============
 
 
-Thank you to Mattia Cacciotti and Marta Franceschi for their help in reviewing and
-testing this code.
+Thank you to Mattia Cacciotti, Marta Franceschi and Koen Goetschalckx for their help in
+reviewing and testing this code.
