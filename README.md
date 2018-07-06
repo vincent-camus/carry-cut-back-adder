@@ -1,6 +1,8 @@
 Carry Cut-Back Adder (CCBA) Source Code
 =======================================
 
+Introduction
+------------
 
 This project provides the VHDL and scripting source for implementing and testing the
 Carry Cut-Back Adder (CCBA) circuit. If you use this code, please cite our article:
@@ -9,22 +11,16 @@ by fabrication of false timing paths: The carry cut-back adder,” in IEEE JETCA
 ](https://doi.org/10.1109/JETCAS.2018.2851749)
 
 This project contains:
-* the CCBA source in VHDL language to implement fully-custom or regular (i.e. with
-uniformly-sized elements and equally-spaced cuts) CCBA structures
-* a VHDL top-level wrapper to set the desired architecture and structure of the CCBA
-adder to be simulated and synthesized
-* a behavioral testbench to characterize the errors for 32-bit CCBA structures
-* synthesis scripts for Synopsys Design Compiler and Cadence Genus
-* a gate-level timing verification testbench to compare the synthesized netlist against
-its expected behavior
+* VHDL source code of the CCBA approximate adder
+* VHDL testbenches for behavioral and gate-level verification
+* synthesis scripts for both Synopsys Design Compiler and Cadence Genus
 * simulation scripts for MentorGraphics Modelsim/Questa
-* part of the Nangate 45nm cell library, a free predictive library developed by Nangate,
-provided with its own license in lib/NangateOpenCellLibrary_PDKv1_3_v2010_12
-
+* Nangate 45nm open-cell library (a free predictive library developed by Nangate,
+provided with its own license in lib/NangateOpenCellLibrary_PDKv1_3_v2010_12)
 
 
 File structure
-==============
+--------------
 
 
 ```
