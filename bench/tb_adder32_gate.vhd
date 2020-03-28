@@ -3,7 +3,7 @@
 --                                                                       --
 --  Project: Carry Cut-Back Adder (CCBA) Source Code                     --
 --  Authors: Vincent Camus (EPFL-ICLAB), vincent.camus@epfl.ch           --
---  License: BSD-3-Clause-Clear                                          --
+--  License: BSD-2-Clause                                                --
 --                                                                       --
 --  File: tb_adder32_gate.vhd                                            --
 --  Description: adder32 testbench                                       --

@@ -49,21 +49,21 @@ File structure
 |       |   └── NangateOpenCellLibrary_typical.db
 |       ├── verilog
 |       |   └── NangateOpenCellLibrary.v
-|       ├── LICENSE.md
-|       └── README.md
-├── LICENSE.md
-├── README.md
-└── README.pdf
+|       ├── license.md
+|       └── readme.md
+├── license.md
+├── presentation.pdf
+├── readme.md
+└── readme.pdf
 ```
 
 
-How to run
-==========
+CCBA architecture and design customization
+==========================================
 
 
-Customize the CCBA design architecture and parameters
------------------------------------------------------
-
+Design parameters
+-----------------
 
 Optionally, you can customize the CCBA structure. The only file you need to modify is the
 rtl/wrapper_ccba_regular_adder32.vhd file, in the CCBA parameter constant declarations.
@@ -86,6 +86,10 @@ For a full explanation of the CCBA working principle, check our associated artic
 [V. Camus, M. Cacciotti, J. Schlachter, and C. Enz, “Design of approximate circuits
 by fabrication of false timing paths: The carry cut-back adder,” in IEEE JETCAS, 2018.
 ](https://doi.org/10.1109/JETCAS.2018.2851749)
+
+
+How to run
+==========
 
 
 Run a behavioral simulation using MentorGraphics Modelsim/Questa
@@ -245,10 +249,10 @@ License
 =======
 
 
-This project is licensed under the BSD 3-Clause Clear License. See the LICENSE.md file
-from the main directory for rights and limitations.
+This project is licensed under the BSD 2-Clause License. See the license.md file from
+the main directory for rights and limitations.
 
-A human-readable summary of (and not a substitute for) the BSD 3-Clause Clear License is:
+A human-readable summary of (and not a substitute for) the BSD 2-Clause License is:
 * permissions:
      * private use
      * commercial use
@@ -258,7 +262,6 @@ A human-readable summary of (and not a substitute for) the BSD 3-Clause Clear Li
      * license and copyright notice must be included with the software
 * limitations:
      * limitation of liability
-     * does NOT grant any rights in the patents of contributors
      * does NOT provide any warranty
 
 

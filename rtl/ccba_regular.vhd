@@ -3,7 +3,7 @@
 --                                                                       --
 --  Project: Carry Cut-Back Adder (CCBA) Source Code                     --
 --  Authors: Vincent Camus (EPFL-ICLAB), vincent.camus@epfl.ch           --
---  License: BSD-3-Clause-Clear                                          --
+--  License: BSD-2-Clause                                                --
 --                                                                       --
 --  File: ccba_regular.vhd                                               --
 --  Description: wrapper to instantiate a regular CCBA entity with       --

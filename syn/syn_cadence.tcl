@@ -3,7 +3,7 @@
 ##                                                                       ##
 ##  Project: Carry Cut-Back Adder (CCBA) Source Code                     ##
 ##  Authors: Vincent Camus (EPFL-ICLAB), vincent.camus@epfl.ch           ##
-##  License: BSD-3-Clause-Clear                                          ##
+##  License: BSD-2-Clause                                                ##
 ##                                                                       ##
 ##  File: syn_cadence.tcl                                                ##
 ##  Description: script to synthesize the CCBA wrapper with Cadence      ##

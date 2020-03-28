@@ -3,7 +3,7 @@
 ##                                                                       ##
 ##  Project: Carry Cut-Back Adder (CCBA) Source Code                     ##
 ##  Authors: Vincent Camus (EPFL-ICLAB), vincent.camus@epfl.ch           ##
-##  License: BSD-3-Clause-Clear                                          ##
+##  License: BSD-2-Clause                                                ##
 ##                                                                       ##
 ##  File: timing_constraints.tcl                                         ##
 ##  Description: script to set-up delay constraints of the CCBA wrapper  ##

@@ -3,7 +3,7 @@
 --                                                                       --
 --  Project: Carry Cut-Back Adder (CCBA) Source Code                     --
 --  Authors: Vincent Camus (EPFL-ICLAB), vincent.camus@epfl.ch           --
---  License: BSD-3-Clause-Clear                                          --
+--  License: BSD-2-Clause                                                --
 --                                                                       --
 --  File: wrapper_ccba_regular_adder32.vhd                               --
 --  Description: wrapper of ccba_regular to adder32, customize your      --
